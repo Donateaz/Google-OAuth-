@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBA07161CAB98F500728496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA07151CAB98F500728496 /* AppDelegate.swift */; };
+		CFBA07181CAB98F500728496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA07171CAB98F500728496 /* ViewController.swift */; };
+		CFBA071B1CAB98F500728496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA07191CAB98F500728496 /* Main.storyboard */; };
+		CFBA071D1CAB98F500728496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBA071C1CAB98F500728496 /* Assets.xcassets */; };
+		CFBA07201CAB98F500728496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA071E1CAB98F500728496 /* LaunchScreen.storyboard */; };
+		CFBA072B1CAB98F500728496 /* SootheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA072A1CAB98F500728496 /* SootheTests.swift */; };
+		CFBA07361CAB98F500728496 /* SootheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA07351CAB98F500728496 /* SootheUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFBA07271CAB98F500728496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBA070A1CAB98F500728496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBA07111CAB98F500728496;
+			remoteInfo = Soothe;
+		};
+		CFBA07321CAB98F500728496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBA070A1CAB98F500728496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBA07111CAB98F500728496;
+			remoteInfo = Soothe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFBA07121CAB98F500728496 /* Soothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soothe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA07151CAB98F500728496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFBA07171CAB98F500728496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFBA071A1CAB98F500728496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBA071C1CAB98F500728496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBA071F1CAB98F500728496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBA07211CAB98F500728496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBA07261CAB98F500728496 /* SootheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SootheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA072A1CAB98F500728496 /* SootheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SootheTests.swift; sourceTree = "<group>"; };
+		CFBA072C1CAB98F500728496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBA07311CAB98F500728496 /* SootheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SootheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA07351CAB98F500728496 /* SootheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SootheUITests.swift; sourceTree = "<group>"; };
+		CFBA07371CAB98F500728496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBA070F1CAB98F500728496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA07231CAB98F500728496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA072E1CAB98F500728496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBA07091CAB98F500728496 = {
+			isa = PBXGroup;
+			children = (
+				CFBA07141CAB98F500728496 /* Soothe */,
+				CFBA07291CAB98F500728496 /* SootheTests */,
+				CFBA07341CAB98F500728496 /* SootheUITests */,
+				CFBA07131CAB98F500728496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBA07131CAB98F500728496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA07121CAB98F500728496 /* Soothe.app */,
+				CFBA07261CAB98F500728496 /* SootheTests.xctest */,
+				CFBA07311CAB98F500728496 /* SootheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBA07141CAB98F500728496 /* Soothe */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA07151CAB98F500728496 /* AppDelegate.swift */,
+				CFBA07171CAB98F500728496 /* ViewController.swift */,
+				CFBA07191CAB98F500728496 /* Main.storyboard */,
+				CFBA071C1CAB98F500728496 /* Assets.xcassets */,
+				CFBA071E1CAB98F500728496 /* LaunchScreen.storyboard */,
+				CFBA07211CAB98F500728496 /* Info.plist */,
+			);
+			path = Soothe;
+			sourceTree = "<group>";
+		};
+		CFBA07291CAB98F500728496 /* SootheTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA072A1CAB98F500728496 /* SootheTests.swift */,
+				CFBA072C1CAB98F500728496 /* Info.plist */,
+			);
+			path = SootheTests;
+			sourceTree = "<group>";
+		};
+		CFBA07341CAB98F500728496 /* SootheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA07351CAB98F500728496 /* SootheUITests.swift */,
+				CFBA07371CAB98F500728496 /* Info.plist */,
+			);
+			path = SootheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBA07111CAB98F500728496 /* Soothe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA073A1CAB98F500728496 /* Build configuration list for PBXNativeTarget "Soothe" */;
+			buildPhases = (
+				CFBA070E1CAB98F500728496 /* Sources */,
+				CFBA070F1CAB98F500728496 /* Frameworks */,
+				CFBA07101CAB98F500728496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soothe;
+			productName = Soothe;
+			productReference = CFBA07121CAB98F500728496 /* Soothe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFBA07251CAB98F500728496 /* SootheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA073D1CAB98F500728496 /* Build configuration list for PBXNativeTarget "SootheTests" */;
+			buildPhases = (
+				CFBA07221CAB98F500728496 /* Sources */,
+				CFBA07231CAB98F500728496 /* Frameworks */,
+				CFBA07241CAB98F500728496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBA07281CAB98F500728496 /* PBXTargetDependency */,
+			);
+			name = SootheTests;
+			productName = SootheTests;
+			productReference = CFBA07261CAB98F500728496 /* SootheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFBA07301CAB98F500728496 /* SootheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA07401CAB98F500728496 /* Build configuration list for PBXNativeTarget "SootheUITests" */;
+			buildPhases = (
+				CFBA072D1CAB98F500728496 /* Sources */,
+				CFBA072E1CAB98F500728496 /* Frameworks */,
+				CFBA072F1CAB98F500728496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBA07331CAB98F500728496 /* PBXTargetDependency */,
+			);
+			name = SootheUITests;
+			productName = SootheUITests;
+			productReference = CFBA07311CAB98F500728496 /* SootheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBA070A1CAB98F500728496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Donatea Zefi";
+				TargetAttributes = {
+					CFBA07111CAB98F500728496 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MHGEKX7LLB;
+					};
+					CFBA07251CAB98F500728496 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MHGEKX7LLB;
+						TestTargetID = CFBA07111CAB98F500728496;
+					};
+					CFBA07301CAB98F500728496 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MHGEKX7LLB;
+						TestTargetID = CFBA07111CAB98F500728496;
+					};
+				};
+			};
+			buildConfigurationList = CFBA070D1CAB98F500728496 /* Build configuration list for PBXProject "Soothe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBA07091CAB98F500728496;
+			productRefGroup = CFBA07131CAB98F500728496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBA07111CAB98F500728496 /* Soothe */,
+				CFBA07251CAB98F500728496 /* SootheTests */,
+				CFBA07301CAB98F500728496 /* SootheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBA07101CAB98F500728496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA07201CAB98F500728496 /* LaunchScreen.storyboard in Resources */,
+				CFBA071D1CAB98F500728496 /* Assets.xcassets in Resources */,
+				CFBA071B1CAB98F500728496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA07241CAB98F500728496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA072F1CAB98F500728496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBA070E1CAB98F500728496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA07181CAB98F500728496 /* ViewController.swift in Sources */,
+				CFBA07161CAB98F500728496 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA07221CAB98F500728496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA072B1CAB98F500728496 /* SootheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA072D1CAB98F500728496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA07361CAB98F500728496 /* SootheUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFBA07281CAB98F500728496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBA07111CAB98F500728496 /* Soothe */;
+			targetProxy = CFBA07271CAB98F500728496 /* PBXContainerItemProxy */;
+		};
+		CFBA07331CAB98F500728496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBA07111CAB98F500728496 /* Soothe */;
+			targetProxy = CFBA07321CAB98F500728496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFBA07191CAB98F500728496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBA071A1CAB98F500728496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBA071E1CAB98F500728496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBA071F1CAB98F500728496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBA07381CAB98F500728496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFBA07391CAB98F500728496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBA073B1CAB98F500728496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Soothe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Soothe.Soothe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFBA073C1CAB98F500728496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Soothe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Soothe.Soothe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFBA073E1CAB98F500728496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SootheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Soothe.SootheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soothe.app/Soothe";
+			};
+			name = Debug;
+		};
+		CFBA073F1CAB98F500728496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SootheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Soothe.SootheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soothe.app/Soothe";
+			};
+			name = Release;
+		};
+		CFBA07411CAB98F500728496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SootheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Soothe.SootheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Soothe;
+			};
+			name = Debug;
+		};
+		CFBA07421CAB98F500728496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SootheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Soothe.SootheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Soothe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBA070D1CAB98F500728496 /* Build configuration list for PBXProject "Soothe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA07381CAB98F500728496 /* Debug */,
+				CFBA07391CAB98F500728496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBA073A1CAB98F500728496 /* Build configuration list for PBXNativeTarget "Soothe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA073B1CAB98F500728496 /* Debug */,
+				CFBA073C1CAB98F500728496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFBA073D1CAB98F500728496 /* Build configuration list for PBXNativeTarget "SootheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA073E1CAB98F500728496 /* Debug */,
+				CFBA073F1CAB98F500728496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFBA07401CAB98F500728496 /* Build configuration list for PBXNativeTarget "SootheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA07411CAB98F500728496 /* Debug */,
+				CFBA07421CAB98F500728496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBA070A1CAB98F500728496 /* Project object */;
+}
