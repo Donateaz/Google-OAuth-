@@ -8,11 +8,23 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, GIDSignInUIDelegate {
 
+    @IBAction func signOutButton(sender: AnyObject) {
+        GIDSignIn.sharedInstance().signOut()
+        
+        let signInPage = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        let signInPageNav = UINavigationController(rootViewController: signInPage)
+        let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.window?.rootViewController = signInPageNav
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        GIDSignIn.sharedInstance().uiDelegate = self
+
+        
         // Do any additional setup after loading the view.
     }
 
